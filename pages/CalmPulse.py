@@ -18,7 +18,9 @@ sentiment_score = analyzer.polarity_scores(transcript)
 # Detect word repetition
 words = transcript.lower().replace('.', '').split()
 repetition_count = sum([1 for i in range(1, len(words)) if words[i] == words[i-1]])
-
+def get_high_bpm():
+    heartbeat_df = pd.read_csv("heartBeat.csv")
+    return heartbeat_df['bpm'].max() > 100  # Example threshold for high BPM
 # Emotion detection logic
 high_bpm = heartbeat_df['bpm'].max() > 100
 high_volume = audio_volume_df['volume'].mean() > 0.4
