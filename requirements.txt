@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+vaderSentiment
+speechrecognition
+librosa
+soundfile
+transformers
