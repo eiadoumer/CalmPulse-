@@ -1,7 +1,6 @@
 import streamlit as st
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import time
-from pages.CalmPulse import get_high_bpm
 import streamlit as st
 
 
@@ -127,7 +126,7 @@ st.markdown(f"""
     </style>
 """, unsafe_allow_html=True)
 
-if get_high_bpm():
+if high_bpm:
     st.warning("High BPM detected! Please take a moment to breathe deeply and relax.")
     st.markdown("<br><br>", unsafe_allow_html=True)  # Add vertical spacing
     show_breathing_activity()

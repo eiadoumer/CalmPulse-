@@ -31,7 +31,7 @@ def record_and_analyze():
             with open(wav_path, "wb") as out:
                 out.write(audio.get_wav_data())
 
-        # Speech to text
+      
         transcript = r.recognize_google(audio)
         st.success("📝 Transcript:")
         st.write(transcript)
