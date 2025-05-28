@@ -1,6 +1,6 @@
 # 🧠 CalmPulse: Emotion Detection for Autistic Individuals
 
-**NeuroPath** is a lightweight Streamlit app designed to detect and visualize emotional states in autistic individuals using simulated **heartbeat**, **audio volume**, and **speech transcript** data. It supports early detection of stress or emotional overload based on voice repetition, volume peaks, elevated heart rate, and negative sentiment.
+**CalmPulse** is a lightweight Streamlit app designed to detect and visualize emotional states in autistic individuals using simulated **heartbeat**, **audio volume**, and **speech transcript** data. It supports early detection of stress or emotional overload based on voice repetition, volume peaks, elevated heart rate, and negative sentiment.
 
 ---
 
